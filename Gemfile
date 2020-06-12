@@ -11,7 +11,7 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'rake'
 gem 'sinatra-activerecord'
-gem 'activerecord','5.2.3'
+gem 'activerecord','6.0.3.1gi'
 gem 'bcrypt'
 group :development  do
 
