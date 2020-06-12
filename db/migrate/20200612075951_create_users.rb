@@ -1,6 +1,6 @@
-class CreateUsers < ActiveRecord::Migration[6.0]
+class CreateUsers < ActiveRecord::Migration[4.2]
   def change
-    reate_table :users do |t|
+     create_table :users do |t|
       t.string :name
       t.string :password_digest
       t.timestamps null: false
